@@ -1,7 +1,26 @@
 html {
     min-height: 100%;
+    background-color: black;
+}
+
+body {
+    margin-top: 0;
+}
+
+.silver-card {
     background-color: #f1f2f6;
     background-image: linear-gradient(315deg, #f1f2f6 0%, #c9c6c6 74%);
+    margin: 0px 600px 0px 600px;
+    vertical-align: top;
+    padding-top: 30px;
+}
+
+a:link {
+text-decoration: none;
+}
+
+a:visited {
+text-decoration: none;
 }
 
 .title-card {
@@ -11,33 +30,8 @@ html {
     width: 500px;
     height: 230px;
     margin: 0 auto;
-    margin-top: 50px;
     border-color: black;
     border-style: solid;
-}
-
-.project-card {
-    width: 10%;
-    height: auto;
-    background-color: silver;
-    border-color: black;
-    border-style: solid;
-    text-align: center;
-    display: inline;
-    float: left;
-
-    margin-left: 3%;
-    margin-right: 3%;
-}
-
-.card-list {
-    background-color: silver;
-    border-color: black;
-    border-style: solid;
-    margin-left: 20%;
-    margin-right: 20%;
-    width: 700px;
-    height: 500px;
 }
 
 .name {
@@ -63,8 +57,6 @@ html {
     height: auto;
 }
 
-
-
 .dev-icon {
     width: 128px;
     height: auto;
@@ -85,3 +77,36 @@ html {
 .skilled-row {
     text-align: center;
 }
+
+.left-image {
+
+}
+
+.right-image {
+    
+}
+
+/*
+.project-title-left {
+    font-size: 50px;
+    padding-left: 150px;
+    padding-top: 50px;
+}
+
+.project-title-right {
+    font-size: 50px;
+    text-align: right;
+    padding-right: 150px;
+    padding-top: 50px;
+}
+
+.project-group-a {
+    background-color: grey;
+    padding-bottom: 300px;
+}
+
+.project-group-b {
+    background-color: darkcyan;
+    padding-bottom: 300px;
+}
+*/
