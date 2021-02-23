@@ -8,8 +8,8 @@ body {
 }
 
 .silver-card {
-    background-color: #f1f2f6;
-    background-image: linear-gradient(315deg, #f1f2f6 0%, #c9c6c6 74%);
+    background-color: #bdcad9;
+    background-image: linear-gradient(315deg, #bdcad9 0%, #e1dada 74%);
     margin: 0 20% 0 20%;
     vertical-align: top;
     padding-top: 30px;
@@ -76,6 +76,11 @@ a:visited {
 
 #sql-icon {
     border-radius: 20px;
+}
+
+#mailto-icon {
+    position: relative;
+    right: -3px;
 }
 
 #footer-links {
