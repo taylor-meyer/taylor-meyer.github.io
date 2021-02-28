@@ -180,3 +180,104 @@ a:visited {
     }
   
 }
+
+/* Desktop */
+@media screen and (min-width: 1920px) {
+
+    body {
+        background-color: black;
+        padding: 0;
+    }
+    
+
+    .silver-card {
+        background-color: #f1f2f6;
+        background-image: linear-gradient(315deg, #f1f2f6 0%, #c9c6c6 74%);
+        margin: 0 20% 0 20%;
+        vertical-align: top;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .title-card {
+        background-color: silver;
+        text-align: center;
+        color: Black;
+        width: 500px;
+        height: 170px;
+        margin: 0 auto;
+        border-color: black;
+        border-style: solid;
+    }
+
+    #contact-links {
+        margin-top: 20px;
+    }
+
+    .app-image {
+        width: 200px;
+    }
+
+    .project-title {
+        font-size: 36px;
+    }
+
+    .github-link {
+        font-size: 24px;
+    }
+
+    .project-description {
+        font-size: 24px;
+    }
+
+    #description-one {
+        margin-right: 200px;
+        margin-left: 650px;
+    }
+
+    #project-one {
+        height: 500px;
+    }
+
+    .image-left {
+        float: left;
+    }
+
+    .image-right {
+        float: right;
+    }
+
+    .clear-left {
+        clear: left;
+    }
+
+    .clear-right {
+        clear: right;
+    }
+
+    .mfp-image {
+        width: 700px;
+    }
+
+    #description-two {
+        margin: 10px 300px 10px 300px;
+        text-align: justify;
+    }
+
+    #project-three {
+        height: 500px;
+    }
+
+    #description-three {
+        margin-right: 200px;
+        margin-left: 450px;
+    }
+
+    .nqueens-image {
+        width: 300px;
+    }
+
+    .contact-me {
+        display: none;
+    }
+}
