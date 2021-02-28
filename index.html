@@ -62,26 +62,35 @@
         <h2 class="section-title">Things I've made</h2>
 
 
-        <div class="pink-project">
+        <div class="pink-project" id="project-one">
             <h3 class="project-title">710</h3>
             <p class="github-link"><a href="https://github.com/byteMe-CSULB/710/tree/master/gas_710">GitHub</a></p>
     
                 
-                <div class="app-images">
-                    <img src="images/710_navigation.png" alt="710 Navigation screen." class="app-image">
-                    <img src="images/710_summary.png" alt="710 Trip Summary screen." class="app-image">
-                    <img src="images/710_pdf.png" alt="710 Payments PDF." class="app-image">
-                </div>
+            <div>
                 
-    
-            <div class="project-description">
-                <p>"710" or "7!0" is an Android app developed with Dart & Flutter. 710 allows users to set
-                    up road trips of any distance and the price of fuel will be split between all those
-                    riding in the vehicle. Users can login with their Google email and be authenticated through
-                    Firebase. The fuel cost per gallon is an average per county and is pulled from the Internet
-                    and uploaded to Firebase using Python.
-                </p>
+                    <div class="app-images">
+
+                        <p class="image-left">
+                            <img src="images/710_navigation.png" alt="710 Navigation screen." class="app-image">
+                            <img src="images/710_summary.png" alt="710 Trip Summary screen." class="app-image">
+                            <img src="images/710_pdf.png" alt="710 Payments PDF." class="app-image">
+                        </p>
+
+                    </div>
+                
+                    
+        
+                <div class="project-description">
+                    <p id="description-one">"710" or "7!0" is an Android app developed with Dart & Flutter. 710 allows users to set
+                        up road trips of any distance and the price of fuel will be split between all those
+                        riding in the vehicle. Users can login with their Google email and be authenticated through
+                        Firebase. The fuel cost per gallon is an average per county and is pulled from the Internet
+                        and uploaded to Firebase using Python.
+                    </p> 
+                </div>
             </div>
+
         </div>
 
 
@@ -91,8 +100,8 @@
             </p>
             <p class="github-link"><a href="https://www.curseforge.com/wow/addons/missingflightpaths">Public Release</a></p>
 
-            <div class="mfp-image">
-                <img src="images/mfp.png" alt="Missing Flight Paths Northrend scren.">
+            <div>
+                <p class="mfp-image"><img src="images/mfp.png" alt="Missing Flight Paths Northrend scren."></p>
             </div>
 
             <div class="project-description">
@@ -105,14 +114,15 @@
             </div>
         </div>
 
-        <div class="pink-project">
+        <div class="pink-project" id="project-three">
             <h3 class="project-title">N-Queens Problem Solver</h3>
             <p class="github-link"><a href="https://github.com/taylor-meyer/N-Queens-Problem-Solver">GitHub</a></p>
 
     
-                <img src="images/nqueens.png" alt="Screenshot showing Python output." class="nqueens-image">
+                <p class="image-right"><img src="images/nqueens.png" alt="Screenshot showing Python output." class="nqueens-image"></p>
 
-                <p>The N Queens Problem is the problem of placing N queens on a chessboard of NxN rows & columns
+                
+                <p id="description-three">The N Queens Problem is the problem of placing N queens on a chessboard of NxN rows & columns
                     such that any queen cannot attack any other queen. This Python script accepts a user inputted N, and k
                     states for use with a genetic algorithm. The genetic algorithm randomely generate k solutions to the problem.
                     The k states are given a score from a fitness function, then spliced together and mutated. If the new states
