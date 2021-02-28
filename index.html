@@ -3,6 +3,9 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="HandheldFriendly" content="true">
     <link rel="stylesheet" href="style.css">
     <title>Taylor Meyer</title>
 </head>
@@ -20,15 +23,15 @@
             <div class="skilled-row">
 
                 <a href="https://github.com/taylor-meyer">
-                    <img class="dev-icon-link" src="images/github.svg" title="GitHub" alt="GitHub link." />
+                    <img class="dev-icon-link" src="images/github.svg" title="GitHub" alt="GitHub link."/>
                 </a>
 
                 <a href="https://www.linkedin.com/in/taylorrossmeyer/">
-                    <img class="dev-icon-link" src="images/linkedin.svg" title="LinkedIn" alt="LinkedIn link." />
+                    <img class="dev-icon-link" src="images/linkedin.svg" title="LinkedIn" alt="LinkedIn link."/>
                 </a>
 
                 <a href="mailto:taylor.ross.meyer@gmail.com">
-                    <img class="dev-icon-link" src="images/mail.svg" title="Email" alt="Email link." />
+                    <img class="dev-icon-link" id="mailto-link" src="images/mail.svg" title="Email" alt="Email link."/>
                 </a>
             </div>
         </div>
@@ -59,21 +62,19 @@
         <h2 class="section-title">Things I've made</h2>
 
 
-        <div class="project-block-pink">
-
-            <div class="clear-right">
-
-                <p class="left-image">
-                    <img src="images/710_navigation.png" alt="710 Navigation screen." width="200px"
-                        style="padding-left: 5px;">
-                    <img src="images/710_summary.png" alt="710 Trip Summary screen." width="200px">
-                    <img src="images/710_pdf.png" alt="710 payments pdf." width="200px" style="padding-right: 5px;">
-                </p>
-            </div>
-
-            <div class="project-text">
-                <h3 id="project-title">710</h3>
-                <p><a href="https://github.com/byteMe-CSULB/710/tree/master/gas_710">GitHub</a></p>
+        <div class="pink-project">
+            <h3 class="project-title">710</h3>
+            <p class="github-link"><a href="https://github.com/byteMe-CSULB/710/tree/master/gas_710">GitHub</a></p>
+    
+                
+                <div class="app-images">
+                    <img src="images/710_navigation.png" alt="710 Navigation screen." class="app-image">
+                    <img src="images/710_summary.png" alt="710 Trip Summary screen." class="app-image">
+                    <img src="images/710_pdf.png" alt="710 Payments PDF." class="app-image">
+                </div>
+                
+    
+            <div class="project-description">
                 <p>"710" or "7!0" is an Android app developed with Dart & Flutter. 710 allows users to set
                     up road trips of any distance and the price of fuel will be split between all those
                     riding in the vehicle. Users can login with their Google email and be authenticated through
@@ -81,75 +82,68 @@
                     and uploaded to Firebase using Python.
                 </p>
             </div>
-
-
         </div>
 
 
-        <div class="project-block-blue">
+        <div class="lightblue-project">
+            <h3 class="project-title">Missing Flight Paths<br>World of Warcraft Addon</h3>
+            <p class="github-link"><a href="https://github.com/taylor-meyer/Missing-Flight-Paths">GitHub</a>
+            </p>
+            <p class="github-link"><a href="https://www.curseforge.com/wow/addons/missingflightpaths">Public Release</a></p>
 
-            <div class="clear-left">
-
-                <p class="right-image">
-                    <img src="images/mfp.png" alt="Missing Flight Paths Northrend scren." width="600px"
-                        style="padding-right: 5px;">
-                </p>
-                <div class="project-text">
-                    <h3>Missing Flight Paths <br> World of Warcraft Addon</h3>
-                    <p><a href="https://github.com/taylor-meyer/Missing-Flight-Paths">GitHub</a> <br>
-                        <a href="https://www.curseforge.com/wow/addons/missingflightpaths">Public Release</a>
-                    </p>
-
-                    <p>Players playing World of Warcraft sometimes need to use the service of a non-player flight master
-                        to taxi them across the world, but they can only be sent to locations they have previously
-                        visited. Whether the player has ever been to a location is not always apparent. This addon to World of
-                        Warcraft adds green exclamation marks in the style of the game to locations where they have not unlocked the
-                        ability to fly yet.
-                    </p>
-                </div>
+            <div class="mfp-image">
+                <img src="images/mfp.png" alt="Missing Flight Paths Northrend scren.">
             </div>
 
-        </div>
-
-        <div class="project-block-pink">
-
-            <div class="clear-right">
-
-                <p class="left-image">
-                    <img src="images/nqueens.png" alt="Screenshot showing Python output." width=300px style="padding-left: 5px; position: relative; top: -30px;">
+            <div class="project-description">
+                <p>Players playing World of Warcraft sometimes need to use the service of a non-player flight master
+                    to taxi them across the world, but they can only be sent to locations they have previously
+                    visited. Whether the player has ever been to a location is not always apparent. This addon to World of
+                    Warcraft adds green exclamation marks in the style of the game to locations where they have not unlocked the
+                    ability to fly yet.
                 </p>
-                <div class="project-text">
-
-                    <h3>N-Queens Problem Solver</h3>
-                    <p><a href="https://github.com/taylor-meyer/N-Queens-Problem-Solver">GitHub</a></p>
-
-                    <p>The N Queens Problem is the problem of placing N queens on a chessboard of NxN rows & columns
-                        such that any queen cannot attack any other queen. This Python script accepts a user inputted N, and k
-                        states for use with a genetic algorithm. The genetic algorithm randomely generate k solutions to the problem.
-                        The k states are given a score from a fitness function, then spliced together and mutated. If the new states
-                        score lower on the fitness function, they are thrown out. The splicing and mutating continue until the
-                        answer is found. With an N of 8 (a standard 8x8 chessboard), the solution is found in less than one second. A
-                        solution of N of 50 can be solved between two and four minutes.
-                    </p>
-
-                </div>
             </div>
+        </div>
+
+        <div class="pink-project">
+            <h3 class="project-title">N-Queens Problem Solver</h3>
+            <p class="github-link"><a href="https://github.com/taylor-meyer/N-Queens-Problem-Solver">GitHub</a></p>
+
+    
+                <img src="images/nqueens.png" alt="Screenshot showing Python output." class="nqueens-image">
+
+                <p>The N Queens Problem is the problem of placing N queens on a chessboard of NxN rows & columns
+                    such that any queen cannot attack any other queen. This Python script accepts a user inputted N, and k
+                    states for use with a genetic algorithm. The genetic algorithm randomely generate k solutions to the problem.
+                    The k states are given a score from a fitness function, then spliced together and mutated. If the new states
+                    score lower on the fitness function, they are thrown out. The splicing and mutating continue until the
+                    answer is found. With an N of 8 (a standard 8x8 chessboard), the solution is found in less than one second. A
+                    solution of N of 50 can be solved between two and four minutes.
+                </p>
+
 
         </div>
 
-        <div class="skilled-row" id="footer-links">
-            <a href="https://github.com/taylor-meyer">
-                <img class="dev-icon-link" src="images/github.svg" title="GitHub" alt="GitHub link." />
-            </a>
 
-            <a href="https://www.linkedin.com/in/taylorrossmeyer/">
-                <img class="dev-icon-link" src="images/linkedin.svg" title="LinkedIn" alt="LinkedIn link." />
-            </a>
 
-            <a href="mailto:taylor.ross.meyer@gmail.com">
-                <img class="dev-icon-link" src="images/mail.svg" title="Email" alt="Email link." />
-            </a>
+
+        <div class="contact-me">
+            <h2>Contact Me:</h2>
+    
+            <div class="skilled-row">
+                <a href="https://www.linkedin.com/in/taylorrossmeyer/">
+                    <img class="dev-icon-link" src="images/linkedin.svg" title="LinkedIn" alt="LinkedIn link."/>
+                </a>
+    
+                <a href="mailto:taylor.ross.meyer@gmail.com">
+                    <img class="dev-icon-link" id="mailto-link" src="images/mail.svg" title="Email" alt="Email link."/>
+                </a>
+            </div>
         </div>
+
+        
+
+
 
     </div>
 

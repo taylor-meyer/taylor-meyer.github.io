@@ -1,18 +1,16 @@
+/* Base CSS for iPhone 6 size */
+* {
+    margin: 0;
+    padding: 0;
+}
+
 html {
-    min-height: 100%;
-    background-color: black;
+    background-color: silver;
 }
 
-body {
-    margin-top: 0;
-}
-
-.silver-card {
-    background-color: #f1f2f6;
-    background-image: linear-gradient(315deg, #f1f2f6 0%, #c9c6c6 74%);
-    margin: 0 20% 0 20%;
-    vertical-align: top;
-    padding-top: 30px;
+img {
+    width: 100%;
+    height: auto;
 }
 
 a:link {
@@ -23,120 +21,113 @@ a:visited {
     text-decoration: none;
 }
 
-.title-card {
-    background-color: silver;
-    text-align: center;
-    color: Black;
-    width: 500px;
-    height: 230px;
-    margin: 0 auto;
-    border-color: black;
-    border-style: solid;
-}
-
-.name {
-    font-size: 32px;
-    color: black;
-    margin-top: -40px;
-}
-
-.title {
-    font-size: 24px;
-    margin-top: -45px;
-}
-
-.section-title {
-    font-size: 36px;
-    text-align: center;
-    vertical-align: bottom;
-    padding-top: 75px;
-}
-
 .dev-icon-link{
     width: 64px;
     height: auto;
 }
 
-.dev-icon {
-    width: 128px;
-    height: auto;
-    border-radius: 82px;
-    -webkit-transition: -webkit-box-shadow 0.5s ease-out, opacity 0.5s ease-out;
-    -moz-transition: -moz-box-shadow 0.5s ease-out, opacity 0.5s ease-out;
-    transition: box-shadow 0.5s ease-out, opacity 0.5s ease-out;
-}
-
-#java-icon {
-    border-radius: 40px;
-}
-
-#lua-icon {
-    border-radius: 10px;
-}
-
-#sql-icon {
-    border-radius: 20px;
-}
-
-#footer-links {
-    clear: left;
-}
-
-.dev-icon:hover {
-    -webkit-box-shadow: 2px 12px 10px rgba(0,0,0,0.3);
-    -moz-box-shadow: 2px 12px 10px  rgba(0,0,0,0.3);
-    box-shadow: 2px 12px 10px rgba(0,0,0,0.3);
-    opacity: 1;
-    cursor: pointer;
+#mailto-link {
+    padding-left: 3px;
 }
 
 .skilled-row {
     text-align: center;
 }
 
-.clear-right {
-    clear: right;
-}
-
-.clear-left {
-    clear: left;
-}
-
-.left-image {
-    float: left;
-}
-
-.right-image {
-    float: right;
-    position: relative;
-    top: -30px;
-}
-
-#project-title {
-    font-size: 32px;;
-}
-
-.project-text {
+.name {
     font-size: 24px;
-    margin: 5% 10% 10% 0;
+    color: black;
 }
 
-.project-block-pink {
+.title {
+    font-size: 16x;
+}
+
+.title-card {
+    background-color: silver;
+    text-align: center;
+    color: Black;
+    margin: 0 auto;
+    border-color: black;
+    border-style: solid;
+}
+
+.section-title {
+    font-size: 24px;
+    text-align: center;
+    vertical-align: bottom;
+    padding-top: 50px;
+    padding-block-end: 25px;
+}
+
+.dev-icon {
+    width: 55px;
+    height: auto;
+}
+
+.project-title {
+    text-align: center;
+}
+
+.app-image {
+    width: 100px;
+}
+
+.app-images {
+    text-align: center;
+}
+
+.project-description {
+    text-align: justify;
+    margin: 5px 10px 0 10px;
+}
+
+.github-link {
+    text-align: center;
+    text-decoration-color: blue;
+    text-decoration: underline;
+}
+
+.pink-project {
     margin-left: 5px;
     margin-right: 5px;
     margin-bottom: 5px;
     background-color: lightpink;
-    height: 500px;
+    height: auto;
     border-style: solid;
     border-color: black;
 }
 
-.project-block-blue {
+.lightblue-project {
     margin-left: 5px;
     margin-right: 5px;
     margin-bottom: 5px;
     background-color: lightblue;
-    height: 500px;
+    height: auto;
     border-style: solid;
     border-color: black;
+}
+
+.mfp-image {
+    margin: 0 5px 0 5px;
+}
+
+.nqueens-image {
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact-me {
+    width: 200px;
+    margin: auto;
+    border-color: black;
+    border-style: solid;
+    text-align: center;
+}
+
+/* iPad */
+@media screen and (min-width: 768px) {
+
 }
